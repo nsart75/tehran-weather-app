@@ -1,0 +1,54 @@
+
+
+.container {
+    text-align: center;
+    
+      padding: 58px ;
+      font-family: "Vazirmatn", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 100;
+      font-style: normal;
+    
+  }
+
+  #locANDtime{
+    display: flex;
+    justify-content: space-between;
+  }
+  #weather-info-container{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    width: 100%;
+   
+  }
+  #table-container{
+    width: 70%;
+    height: 448px;
+    background-color:#001026;
+    color: aliceblue;
+  
+    border-radius: 16px;
+  
+  }
+
+    #weather-info{
+        display: flex;
+        flex-direction: column;
+        height: 448px;
+        width: 30%;
+        font-size: small;
+    }
+  #temperature {
+    font-size: 40px;
+    font-weight: bold;
+  }
+  
+  #description {
+    font-size: 24px;
+  }
+  #max, #min {
+    font-size: 24px;
+
+  }
+
