@@ -1,0 +1,45 @@
+
+.container {
+    text-align: center;
+    margin-top: 100px;
+    padding: 58px , 68px;
+  }
+
+  #locANDtime{
+    display: flex;
+    justify-content: space-between;
+  }
+  #weather-info-container{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    width: 100%;
+    padding: 58px;
+  }
+  #table-container{
+    width: 864px;
+    height: 448px;
+  }
+
+    #weather-info{
+        display: flex;
+        flex-direction: column;
+        height: 448px;
+        width: 400px;
+        font-size: small;
+    }
+  #temperature {
+    font-size: 48px;
+    font-weight: bold;
+  }
+  
+  #description {
+    font-size: 24px;
+  }
+  #max, #min #date{
+    font-size: 24px;
+  }
+  #humidity, #wind-speed {
+    font-size: 18px;
+  }
+
